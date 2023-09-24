@@ -13,8 +13,8 @@ function App() {
         `https://api.twitch.tv/helix/streams?user_login=${streamerName}`,
         {
           headers: {
-            'Client-ID': 'tg1eq487nzyjrbpe4vmdcd9ef9iehs', // 여기에 트위치 개발자 포털에서 생성한 클라이언트 ID를 입력하세요
-            Authorization: 'Bearer ieixohxgactxzaexr08wbv8uzvtqwe' // 여기에 획득한 액세스 토큰을 입력하세요
+            'Client-ID': '', // 여기에 트위치 개발자 포털에서 생성한 클라이언트 ID를 입력하세요
+            Authorization: '' // 여기에 획득한 액세스 토큰을 입력하세요
           }
         }
       )
